@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Director">
+      <UniqueIdentifier>{7a802138-987b-4302-8229-5a2c70a6b016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB">
+      <UniqueIdentifier>{cc5e3af1-3ad5-4ef4-af48-e6d3f1d76fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\SalesOfficer">
+      <UniqueIdentifier>{007ddeaf-dbc1-4415-b59d-5fc346c313dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\Programmer">
+      <UniqueIdentifier>{dbdc1dbd-51f6-463f-bc28-4d9870fa80d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\WorkerBase">
+      <UniqueIdentifier>{afd3fb78-7c66-4eac-874d-474fbac01c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\Worker">
+      <UniqueIdentifier>{cdbc4e11-7b00-4264-93ee-a9bf9c0e3b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\Accountant">
+      <UniqueIdentifier>{71daef82-baa4-4b07-94c7-132b96e3f4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\LinkedList">
+      <UniqueIdentifier>{74f52f87-8e0f-432a-ba4d-fe7f8dbdd1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AllWB\stream">
+      <UniqueIdentifier>{54deedd4-5383-4774-99c4-b1b96b3877b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab14.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkeList.cpp">
+      <Filter>AllWB\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>AllWB\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerBase.cpp">
+      <Filter>AllWB\WorkerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmer.cpp">
+      <Filter>AllWB\Programmer</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesOfficer.cpp">
+      <Filter>AllWB\SalesOfficer</Filter>
+    </ClCompile>
+    <ClCompile Include="Accountant.cpp">
+      <Filter>AllWB\Accountant</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Director</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.cpp">
+      <Filter>AllWB\stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lab14.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkeList.h">
+      <Filter>AllWB\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>AllWB\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerBase.h">
+      <Filter>AllWB\WorkerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Programmer.h">
+      <Filter>AllWB\Programmer</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesOfficer.h">
+      <Filter>AllWB\SalesOfficer</Filter>
+    </ClInclude>
+    <ClInclude Include="Accountant.h">
+      <Filter>AllWB\Accountant</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Director</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>AllWB\stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
